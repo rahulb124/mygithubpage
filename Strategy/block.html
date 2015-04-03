@@ -1,0 +1,148 @@
+
+<head>
+  <meta charset="utf-8">
+  <title>1671 Strategy Field</title>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <script src="js/sketch.min.js">
+  </script>
+<style> 
+#existingImges {
+    vertical-align: bottom;
+}
+#existingImges img{
+    vertical-align: bottom;
+}
+#draggable {
+    width: 45px;
+}
+#block {
+
+}
+.container {
+display: inline-block;
+  width: 45px;
+  
+}
+.blocks {
+    display: inline-block;
+    width: 45px;
+}
+.block {
+    width:554px;
+    height : 596px;
+    padding:1px;
+    border:1px solid #C8C8C8;
+    margin:0px;
+    background-image: url("file:///Users/rahulbekal/Desktop/Scouting/strategyJavascript/img/start_zone.png");
+    margin-left: 100px;
+    margin-right: auto;
+    position : relative;
+    overflow: visible;
+    display:inline-block
+}
+</style>
+<script>
+$(document).ready(function () {
+$(document).on('click', '.block-add', function () {
+    var a = $(this);
+    var src = a.find('img:first').attr('src');
+    var elem = $('<div id="draggable" class="container"><img src="' + src + '" class="blocks" /></div>');
+    $('.block').append(elem);
+    elem.draggable();
+    return false;
+});
+});
+</script>
+<script type="text/javascript">
+$(function() {
+    $('#trash').droppable({
+        over: function(event, ui) {
+            ui.draggable.remove();
+        }
+    });
+});
+</script>
+<body>
+<!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+-->
+    <br/>
+    <br/>
+    <br/>
+    <br/><br/>
+    <div id="trash">
+        <center>
+    <img src='img/trash.png'></img>
+</center>
+</div>
+    <br/><br/>
+    <br/>
+<div class="row">
+<div id="block" class="block col-md-6">
+
+
+</div>
+<div class="col-md-6">
+<br/>
+    <div id="existingImges">
+
+<a class="block-add" href="javascript:void(0)"><img class="uploadImage" src="img/can.jpeg" /></a> 
+
+<a class="block-add" href="javascript:void(0)"><img class="uploadImage" src="img/1.jpeg" /></a>
+
+<a class="block-add" href="javascript:void(0)"><img class="uploadImage"  src="img/1c.jpeg" /></a>
+
+<a class="block-add" href="javascript:void(0)"><img class="uploadImage"  src="img/1cl.jpeg" /></a>
+
+<a class="block-add" href="javascript:void(0)"><img class="uploadImage"  src="img/2.jpeg" /></a>
+
+<a class="block-add" href="javascript:void(0)"><img class="uploadImage"  src="img/2c.jpeg" /></a>
+
+<a class="block-add" href="javascript:void(0)"><img class="uploadImage"  src="img/2cl.jpeg" /></a>
+
+<a class="block-add" href="javascript:void(0)"><img class="uploadImage"  src="img/3.jpeg" /></a>
+
+<a class="block-add" href="javascript:void(0)"><img class="uploadImage"  src="img/3c.jpeg" /></a>
+
+<a class="block-add" href="javascript:void(0)"><img class="uploadImage"  src="img/3cl.jpeg" /></a>
+
+<a class="block-add" href="javascript:void(0)"><img class="uploadImage"  src="img/4.jpeg" /></a>
+
+<a class="block-add" href="javascript:void(0)"><img class="uploadImage"  src="img/4c.jpeg" /></a>
+
+<a class="block-add" href="javascript:void(0)"><img class="uploadImage"  src="img/4cl.jpeg" /></a>
+
+<a class="block-add" href="javascript:void(0)"><img class="uploadImage"  src="img/5.jpeg" /></a>
+
+<a class="block-add" href="javascript:void(0)"><img class="uploadImage"  src="img/5c.jpeg" /></a>
+
+<a class="block-add" href="javascript:void(0)"><img class="uploadImage"  src="img/5cl.jpeg" /></a>
+
+ <a class="block-add" href="javascript:void(0)"><img class="uploadImage"    src="img/6.jpeg" /></a>
+
+
+ <a class="block-add" href="javascript:void(0)"><img class="uploadImage"  src="img/6c.jpeg" /></a>
+
+
+ <a class="block-add" href="javascript:void(0)"><img class="uploadImage" src="img/6cl.jpeg" /></a>
+
+ <a class="block-add" href="javascript:void(0)"><img class="uploadImage"  src="img/auto.jpeg" /></a>
+
+ <a class="block-add" href="javascript:void(0)"><img class="uploadImage"  src="img/autostack.jpeg" /></a>
+
+ <a class="block-add" href="javascript:void(0)"><img class="uploadImage"  src="img/coop.jpeg" /></a>
+    </div>
+</div>
+
+
+<!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+-->
+</body>
+
+
+
+
