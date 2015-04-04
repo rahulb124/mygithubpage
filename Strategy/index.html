@@ -43,6 +43,10 @@ body {
   background-color: transparent;
   width: 100px;    
 }
+#draggable {
+  background-color: transparent;
+  width: 359px;    
+}
 #draggable 
 .container {
 display: inline-block;
@@ -90,6 +94,12 @@ $(function() {
 <script>
 $(function() {
     $( "#draggable" ).draggable(); 
+    console.log("swag");
+  });
+</script>
+<script>
+$(function() {
+    $( "#draggable2" ).draggable(); 
     console.log("swag");
   });
 </script>
@@ -163,6 +173,11 @@ $(function() {
         <div id="draggable">
             <img src="img/blue.png">
         </div>
+
+        <div id="draggable2">
+            <img src="img/blue2.png">
+        </div>
+
     </div>
   </div>
 </div>
