@@ -87,6 +87,10 @@ $(function() {
     });
 });
 </script>
+<script>
+$(function() {
+    $( "#draggable" ).draggable();
+</script>
 <body>
 <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 -->
@@ -153,7 +157,10 @@ $(function() {
          <a class="block-add" href="javascript:void(0)"><img class="uploadImage"  src="img/autostack.jpeg" /></a>
 
          <a class="block-add" href="javascript:void(0)"><img class="uploadImage"  src="img/coop.jpeg" /></a>
-         <a class="block-add" href="javascript:void(0)"><img class="uploadImage"  src="img/blue.png" /></a>
+
+         <div id="draggable" class="ui-widget-content">
+            <img src="img/blue.png">
+         </div>
 
     </div>
   </div>
