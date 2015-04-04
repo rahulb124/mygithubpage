@@ -43,6 +43,7 @@ body {
   background-color: transparent;
   width: 100px;    
 }
+#draggable 
 .container {
 display: inline-block;
   width: 45px;
@@ -65,6 +66,9 @@ display: inline-block;
     position : relative;
     overflow: visible;
     display:inline-block
+}
+.blocks img[src="blue.png"] {
+  width: 100px;
 }
 </style>
 <script>
@@ -164,10 +168,9 @@ $(function() {
          <a class="block-add" href="javascript:void(0)"><img class="uploadImage"  src="img/blue.png" /></a>
 
 
-         <div id="draggable" class="ui-widget-content">
+        
             <img src="img/blue.png">
-         </div>
-
+        
     </div>
   </div>
 </div>
