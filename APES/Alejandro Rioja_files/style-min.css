@@ -1,0 +1,175 @@
+/*
+Bennett Feely
+http://bennettfeely.com
+*/
+/* * {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    vertical-align: 0;
+    border: 0
+}
+*/
+section {
+    display: block
+}
+
+
+.coloredcontainer {
+    max-width: 42rem;
+    margin: 0 auto
+}
+
+
+
+
+
+a {
+    text-decoration: none;
+    color: #100a09
+}
+
+/*small {
+    display: inline-block;
+    float: right
+}*/
+
+.main4 {
+    text-align: left;
+    padding: 0 1em
+}
+
+.main4 a {
+    display: block;
+    position: relative;
+    padding: .75rem 1rem 1rem;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    user-drag: none;
+    box-shadow: inset 0 -10rem transparent;
+    -webkit-transition: box-shadow .5s;
+    transition: box-shadow .5s
+}
+
+.main4 a:last-child {
+    margin-bottom: 1rem
+}
+
+.main4 a:after {
+    display: block;
+    content: "";
+    clear: both
+}
+
+.main4 a:focus, .main4 a:hover {
+    outline: 0;
+    box-shadow: inset 0 -10rem rgba(0, 0, 0, .2);
+    -webkit-transition: box-shadow 0;
+    transition: box-shadow 0
+}
+
+.main4 a:focus time, .main4 a:hover time {
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
+    opacity: 1
+}
+
+.main4 a:active {
+    box-shadow: inset 0 -10rem rgba(0, 0, 0, .4);
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none
+}
+
+
+time {
+    display: inline-block;
+    pointer-events: none
+}
+
+@media (min-width:55rem) {
+    time {
+        position: absolute;
+        top: 0;
+        right: 100%;
+        width: 10rem;
+        text-align: right;
+        padding-right: .75rem;
+        line-height: 4.75rem;
+        -webkit-transform: translate3d(0.75rem, 0, 0);
+        -ms-transform: translate3d(0.75rem, 0, 0);
+        transform: translate3d(0.75rem, 0, 0);
+        -webkit-transition: .33s;
+        transition: .33s;
+        opacity: 0
+    }
+}
+
+
+.p:nth-of-type(1) {
+    background: #81e5e3
+}
+
+.p:nth-of-type(2) {
+    background: #81dfe5
+}
+
+.p:nth-of-type(3) {
+    background: #81d6e5
+}
+
+.p:nth-of-type(4) {
+    background: #81cee5
+}
+
+.p:nth-of-type(5) {
+    background: #81c6e5
+}
+
+.p:nth-of-type(6) {
+    background: #81bde5
+}
+
+.p:nth-of-type(7) {
+    background: #81b5e5
+}
+
+.p:nth-of-type(8) {
+    background: #81ade5
+}
+
+.p:nth-of-type(9) {
+    background: #81a4e5
+}
+
+.p:nth-of-type(10) {
+    background: #819ce5
+}
+
+.p:nth-of-type(11) {
+    background: #8194e5
+}
+
+.p:nth-of-type(12) {
+    background: #818be5
+}
+
+.p:nth-of-type(13) {
+    background: #8183e5
+}
+
+.p:nth-of-type(14) {
+    background: #8781e5
+}
+
+.p:nth-of-type(15) {
+    background: #9081e5
+}
+
+
+
