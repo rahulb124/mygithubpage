@@ -2528,7 +2528,7 @@ z-index:2;
 	
 /*	parallax bg sections
 ------------------------------------------------*/
-#facts.parallax-section { background-color:white center center repeat; background-size: cover; } /* index */
+#facts.parallax-section { background:url(/APES/deforestation.jpg) center center repeat; background-size: cover; } /* index */
 #testimonials.parallax-section { background:url(../pict.jpeg) center center repeat; background-size: cover; } /* index */
 #passionate.parallax-section { background:url(../pict.jpeg) center center repeat; background-size: cover; } /* index */
 #quote.parallax-section { background:url(../pict.jpeg) center center repeat; background-size: cover; } /* index-headeroverlay*/
