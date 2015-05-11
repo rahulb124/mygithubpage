@@ -2531,7 +2531,7 @@ z-index:2;
 #facts.parallax-section { background:url(/APES/deforestation.jpg) center center repeat; background-size: cover; } /* index */
 #testimonials.parallax-section { background:url(../pict.jpeg) center center repeat; background-size: cover; } /* index */
 #passionate.parallax-section { background:url(../pict.jpeg) center center repeat; background-size: cover; } /* index */
-#quote.parallax-section { background:url(../pict.jpeg) center center repeat; background-size: cover; } /* index-headeroverlay*/
+#quote.parallax-section { background-color:black center center repeat; background-size: cover; } /* index-headeroverlay*/
 #promo-wrapper.parallax-section {background:url(../pict.jpeg) center center no-repeat; background-size: cover; }
 #quote2.parallax-section { background-color:#003262 center center no-repeat; background-size: auto; } /* index-headeroverlay*/
 
