@@ -2533,7 +2533,7 @@ z-index:2;
 #passionate.parallax-section { background:url(../pict.jpeg) center center repeat; background-size: cover; } /* index */
 #quote.parallax-section { background:url(/APES/israelbillnye.jpg) center center repeat; background-size: cover; } /* index-headeroverlay*/
 #promo-wrapper.parallax-section {background:url(../pict.jpeg) center center no-repeat; background-size: cover; }
-#quote2.parallax-section { background-color:#003262 center center no-repeat; background-size: auto; } /* index-headeroverlay*/
+#quote2.parallax-section { background-color:#000000 center center no-repeat; background-size: auto; } /* index-headeroverlay*/
 
 /*	dark bg sections
 ------------------------------------------------*/
