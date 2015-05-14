@@ -219,8 +219,8 @@
 			var thousands_sep = ",";
 			var sheetsYear = ((wsheets*52)/2) + " ";
 			var reamsYear  = ((wsheets*52)/2)/500;
-			var costWeek   = (((wsheets)/2)/500)*(4*exchangerate);
-			var costYear   = (((wsheets*52)/2)/500)*(4*exchangerate);
+			var costWeek   = (((wsheets)/2)/500)*(4*exchangerate)*1.57;
+			var costYear   = (((wsheets*52)/2)/500)*(4*exchangerate)*1.57;
 			var treesYear  = (((wsheets*52)/2)/8333.3) + " ";
 		
 			$('#sheetsYear').html(number_format (sheetsYear, decimals, dec_point, thousands_sep));
@@ -271,8 +271,8 @@
 					<div style="width:100%;">
 						<div style="background-color:#EFEFEF; padding:3px;"><span id="sheetsYear" class="csc_result_context"></span>&nbsp;sheets of paper per year</div>
 						<div style="padding:3px;"><span id="reamsYear" class="csc_result_context"></span>&nbsp;reams per year*</div>
-						<div style="background-color:#EFEFEF; padding:3px;"><span id="costWeek" class="csc_result_context"></span>&nbsp;€ per week**</div>
-						<div style="padding:3px;"><span id="costYear" class="csc_result_context"></span>&nbsp;€ per year**</div>
+						<div style="background-color:#EFEFEF; padding:3px;"><span id="costWeek" class="csc_result_context"></span>&nbsp;$ per week**</div>
+						<div style="padding:3px;"><span id="costYear" class="csc_result_context"></span>&nbsp;$ per year**</div>
 						<div style="background-color:#EFEFEF; padding:3px;"><span id="treesYear" class="csc_result_context"></span>&nbsp;trees per year***</div>
 					</div>
 				</div>
